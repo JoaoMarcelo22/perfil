@@ -7,14 +7,14 @@ export const Main = styled.main`
     align-items: center;
     padding: 6rem;
     min-height: 100vh;
-`
+`;
 export const Center = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     padding: 4rem 0;
-`
+`;
 export const Img = styled.img`
     position: relative;
-`
+`;
