@@ -1,4 +1,6 @@
 import styles from "./page.module.css";
+import Imagem from "../assets/home.jpeg"
+import Image from 'next/image'
 
 const Home =()=> {
   return (
@@ -7,6 +9,11 @@ const Home =()=> {
         <p>
           Hello
         </p>
+        <Image
+          width={250}
+          src={Imagem}
+          alt="olha eu aqui"
+        />
       </div>
     </main>
   );
