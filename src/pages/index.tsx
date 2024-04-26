@@ -1,13 +1,7 @@
-import * as S from '../styles/styles'
-
-const Home2 =()=>{
+import Header from "../template"
+const Home =()=>{
   return(
-    <S.Main>
-      <S.Center>
-        <p>Hello word</p>
-        <S.Img src="." alt='Olha eu aqui'/>
-      </S.Center>
-    </S.Main>
+    <Header/>
   );
 }
-export default Home2;
+export default Home;
