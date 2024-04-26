@@ -8,7 +8,6 @@ export const Main = styled.main`
     padding: 6rem;
     min-height: 100vh;
     background-color: #000;
-    color: #fff;
 `;
 export const Center = styled.div`
     display: flex;

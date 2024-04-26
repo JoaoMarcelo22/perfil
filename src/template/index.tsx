@@ -5,7 +5,7 @@ const Header =()=>{
     <S.Main>
       <S.Center>
         <p>Hello word</p>
-        <S.Img src="./" alt='Olha eu aqui'/>
+        <S.Img src="/assets/home.jpeg" alt='Olha eu aqui' width={300}/>
       </S.Center>
     </S.Main>
   );
