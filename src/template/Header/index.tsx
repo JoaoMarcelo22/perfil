@@ -2,7 +2,7 @@
 import Button from '@/components/Button';
 import * as S from './styles'
 
-const Header =()=>{
+const About =()=>{
   return(
     <S.Main>
       <S.Center>
@@ -15,4 +15,4 @@ const Header =()=>{
     </S.Main>
   );
 }
-export default Header;
+export default About;

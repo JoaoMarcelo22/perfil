@@ -1,9 +1,12 @@
+import About from "@/template/About";
+import Main from "@/template/Main";
+
 const Home =()=>{
   return(
     <>
-      <p>
-        Hello
-      </p>
+      <Main>
+        <About/>
+      </Main>
     </>
   )
 }
