@@ -1,6 +1,4 @@
-import Header from "@/template/Header";
-
-const Home1 =()=>{
+const Home =()=>{
   return(
     <>
       <p>
@@ -9,4 +7,4 @@ const Home1 =()=>{
     </>
   )
 }
-export default Home1;
+export default Home;
