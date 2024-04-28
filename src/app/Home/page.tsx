@@ -1,7 +1,10 @@
-import Header from "../template"
 const Home =()=>{
   return(
-    <Header/>
+    <>
+      <p>
+        Home
+      </p>
+    </>
   );
 }
 export default Home;

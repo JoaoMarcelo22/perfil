@@ -1,21 +1,22 @@
 import styled from "styled-components";
 
-export const Main = styled.main`
+export const Main = styled.header`
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 6rem;
-    min-height: 100vh;
-    background-color: #000;
+    height: 100px;
+    background-color: #1b3438;
+    padding: 0 20px;
+    color: #fff;
 `;
 export const Center = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    padding: 4rem 0;
 `;
 export const Img = styled.img`
-    position: relative;
+    max-width: 90px;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid #fff00f;
 `;
