@@ -5,17 +5,12 @@ const About =()=>{
   return(
     <S.Main>
       <S.Text>
-      O meu grande objetivo é continuar aprendendo e dedicar-me entusiasticamente a
-      tecnologias como Next.js/React. Tenho um foco especial no aprimoramento das minhas
-      habilidades usando TypeScript para o desenvolvimento Front-End e, eventualmente,
-      explorar C# para o Back-End. Estou constantemente em busca de novos desafios para
-      aprofundar meu conhecimento no universo do React e expandir minhas experiências no
-      desenvolvimento web.
-      Destaco o meu interesse em continuar estudando a área de Dados, utilizando Python
-      como linguagem principal, associada a uma linguagem de banco de dados, seja relacional
-      ou não. Meu objetivo final é me tornar um programador Full Stack com ênfase em Dados.
+        Olá seja bem vindo(a) ao meu perfil. <br/> Eu sou o João Marcelo, tenho 25 anos sou desenvolvedor Full Stack JavaScript e Cientista de dados, 
+        Nascido em Campina Grande  - PB, criado na Rocinha - RJ desde os meus 3 meses de idade. Apaixonado pela natureza, viagens e moto, Ilha Bela, Penedo e Arraial do Cabo são algumas das cidades que cheguei a conhecer. 
+        Apaixonado por livros e aprendizados, 1984 - George Orwell e Mais esperto que o diabo são algumas das obras que já li por completo.
+        Dentre esses estudos, o movimento Iluminista me encantou e o temo Sapare Aude veio para mudar minha percepção.<br/> Sapere Aude - Ouse saber, Seja sabio!
       </S.Text>
-      <S.Img src='./assets/home.jpeg' />
+      <S.Img src='./assets/perfil.jpg' />
     </S.Main>
   );
 }

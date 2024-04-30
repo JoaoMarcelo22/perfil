@@ -9,10 +9,11 @@ export const Main = styled.header`
     color: #fff;
 `;
 export const Img = styled.img`
-    max-width: 120px;
+    max-width: 250px;
     margin: auto;
-    border-radius: 50%;
+    margin-left: 10px;
     border: 2px solid #fff00f;
+    border-radius: 10%;
 `;
 export const Text = styled.p`
     color: aliceblue;
