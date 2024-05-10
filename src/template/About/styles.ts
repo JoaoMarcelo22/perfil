@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Main = styled.header`
+export const Main = styled.main`
     display: flex;
     justify-content: center;
     height: auto;
@@ -8,6 +8,10 @@ export const Main = styled.header`
     padding: 10px;
     color: #fff;
 `;
+export const ContainerText = styled.div`
+    display: flex;
+    flex-direction: column;
+`
 export const Img = styled.img`
     max-width: 250px;
     margin: auto;
@@ -20,4 +24,10 @@ export const Text = styled.p`
     line-height: 1.6rem;
     font-size: 1rem;
     text-align: justify;
+`
+export const Title = styled.h3`
+    text-align: center;
+    line-height: 1.7rem;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
 `
