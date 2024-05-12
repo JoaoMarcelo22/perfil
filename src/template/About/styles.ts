@@ -21,9 +21,11 @@ export const Img = styled.img`
 `;
 export const Text = styled.p`
     color: aliceblue;
-    line-height: 1.6rem;
+    line-height: 1.65;
     font-size: 1rem;
-    text-align: justify;
+    text-align: start;
+    opacity: 0.8;
+    margin: 1rem;
 `
 export const Title = styled.h3`
     text-align: center;
