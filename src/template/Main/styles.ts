@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-export const Main = styled.header`
+export const Main = styled.main`
     margin: auto;
-    max-width: 720px;
-    height: auto;
-    background-color: #1b343810;
+    padding-top: 20px;
+    max-width: 780px;
+    background-color: #1b343880;
 `;

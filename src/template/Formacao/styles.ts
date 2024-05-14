@@ -20,7 +20,8 @@ export const Text = styled.p`
     margin: 1rem;
 `
 export const Title = styled.h3`
-    text-align: center;
+    margin-left: 20px;
+    text-align: start;
     line-height: 1.7rem;
     font-size: 1.25rem;
     margin-bottom: 1rem;
