@@ -7,6 +7,7 @@ const Experiencia =()=>{
       <S.ContainerText>
         <S.Title>
           Experiência Profissional
+          são 3 em !!!
         </S.Title>
         <S.Text>        
         </S.Text>
