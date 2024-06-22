@@ -1,0 +1,22 @@
+{
+    "experiencia":[
+        {
+            "id": "01",
+            "name" : "Nodis - Stone  ",
+            "cargo" : "Estagiário - BackEnd Develop",
+            "periodo" : "Mar 2022 - Jun 2022"
+        },
+        {
+            "id": "02",
+            "name" : "Wilu  ",
+            "cargo" : "Estagiário - FullStack Develop",
+            "periodo" : "Jul 2022 - Mai 2023"
+        },
+        {
+            "id": "03",
+            "name" : "Rede D'or  ",
+            "cargo" : "Estagiário - I.A Data Science",
+            "periodo" : "Mai 2024 - Atualmente"
+        }
+    ]
+}

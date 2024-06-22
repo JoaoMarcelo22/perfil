@@ -10,7 +10,6 @@ export const Main = styled.article`
 export const ContainerFormation = styled.div`
 display: flex;
 flex-direction: column;
-    
 `
 export const ContainerText = styled.div`
     display: flex;

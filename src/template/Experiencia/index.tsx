@@ -1,49 +1,52 @@
 "use client"
-import * as S from './styles'
 
-const Experiencia =()=>{
-  return(
+import * as S from './styles';
+import { axiosData } from '@/api/axiosData';
+import ExperienciaComponent from '@/components/ExperienciaComponent';
+import { useEffect, useState } from 'react';
+
+interface ExperienciaItem {
+  name: string;
+  cargo: string;
+  periodo: string;
+}
+
+const Experiencia = () => {
+  const [data, setData] = useState<{ experiencia: ExperienciaItem[] } | null>(null);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const getData = async () => {
+      try {
+        const result = await axiosData();
+        setData(result); // Assume que result é { experiencia: [ { name: '...', cargo: '...', periodo: '...' }, ... ] }
+      } catch (e) {
+          console.log(e,"Erro 1")
+          setError(e instanceof Error ? e.message : "Erro generico");
+      }
+    };
+
+    getData();
+  }, []);
+
+  if (error) return <div>Erro: {error}</div>;
+  if (!data) return <div>Carregando...</div>;
+
+  return (
     <S.Main>
       <S.ContainerText>
-        <S.Title>
-          Experiencia
-        </S.Title>
-        <S.ContainerFormation>
-        <S.SubTitle>        
-          Nodis - Stone [ Estagiário - BackEnd Develop]
-        </S.SubTitle>
-        <S.ContainerDate>
-          <S.Text>        
-            Mar 2022 - Jun 2022
-          </S.Text>
-        </S.ContainerDate>
-        <S.SubTitle>        
-          Wilu [ Estagiário - FullStack Develop]
-        </S.SubTitle>
-        <S.ContainerDate>
-          <S.Text>        
-            Jul 2022 - Mai 2023
-          </S.Text>
-        </S.ContainerDate>
-        <S.SubTitle>        
-          Rede D&apos;or [ Estagiário - I.A Data Science]
-        </S.SubTitle>
-        <S.ContainerDate>
-          <S.Text>        
-            Mai 2024 - Atualmente (Nov-24)
-          </S.Text>
-        </S.ContainerDate>
-        <S.SubTitle>        
-          FullStack Develop / Data Science
-        </S.SubTitle>
-        <S.ContainerDate>
-          <S.Text>        
-            Mai 2021 - Atualmente
-          </S.Text>
-        </S.ContainerDate>
-        </S.ContainerFormation>
+        <S.Title>Experiencia</S.Title>
+        {data.experiencia.map((item, index) => (
+          <ExperienciaComponent
+            key={index}
+            name={item.name}
+            cargo={item.cargo}
+            periodo={item.periodo}
+          />
+        ))}
       </S.ContainerText>
     </S.Main>
   );
-}
+};
+
 export default Experiencia;
