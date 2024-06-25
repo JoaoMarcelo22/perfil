@@ -19,7 +19,7 @@ const Experiencia = () => {
     const getData = async () => {
       try {
         const result = await axiosData();
-        setData(result); // Assume que result é { experiencia: [ { name: '...', cargo: '...', periodo: '...' }, ... ] }
+        setData(result);
       } catch (e) {
           console.log(e,"Erro 1")
           setError(e instanceof Error ? e.message : "Erro generico");
