@@ -8,6 +8,7 @@ import { useEffect, useState } from 'react';
 interface ExperienciaItem {
   name: string;
   cargo: string;
+  description: string;
   periodo: string;
 }
 
