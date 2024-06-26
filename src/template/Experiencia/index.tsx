@@ -41,6 +41,7 @@ const Experiencia = () => {
             key={index}
             name={item.name}
             cargo={item.cargo}
+            description={item.description}
             periodo={item.periodo}
           />
         ))}

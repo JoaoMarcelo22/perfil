@@ -1,9 +1,6 @@
 import styled from "styled-components";
 
-export const ContainerDate = styled.div`
-    display: flex;
-`
-export const SubTitle = styled.h4`
+export const Title = styled.h4`
     margin-left: 20px;
     line-height: 1.7rem;
     font-size: 1.1rem;
@@ -17,18 +14,10 @@ export const Text = styled.p`
     opacity: 0.8;
     margin: 1rem;
 `
-export const ContainerText = styled.div`
-    display: flex;
-    flex-direction: column;
+export const Descrition = styled.p`
+    color: blue;
 `
 export const ContainerFormation = styled.div`
 display: flex;
 flex-direction: column;
-`
-export const Title = styled.h3`
-    margin-left: 20px;
-    text-align: start;
-    line-height: 1.7rem;
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
 `
