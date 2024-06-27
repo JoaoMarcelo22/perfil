@@ -7,10 +7,10 @@ const Formacao = () => {
   const { data, error} = useData();
   return(
     <S.Main>
+      <S.ContainerText>
         <S.Title>
           Formação Academica
         </S.Title>
-      <FormacaoComponent name='' periodo='' instituicao=''/>
       {data?.formacao?.map((item, index)=>(
         <FormacaoComponent
           key={index}
@@ -19,6 +19,7 @@ const Formacao = () => {
           instituicao={item.instituicao}
         />
       ))}
+      </S.ContainerText>
     </S.Main>
   );
 }

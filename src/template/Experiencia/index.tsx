@@ -3,41 +3,17 @@
 import * as S from './styles';
 import { axiosData } from '@/api/axiosData';
 import ExperienciaComponent from '@/components/ExperienciaComponent';
+import useData from '@/services/data';
 import { useEffect, useState } from 'react';
 
-interface ExperienciaItem {
-  name: string;
-  cargo: string;
-  description: string;
-  periodo: string;
-}
-
 const Experiencia = () => {
-  const [data, setData] = useState<{ experiencia: ExperienciaItem[] } | null>(null);
-  const [error, setError] = useState<string | null>(null);
-
-  useEffect(() => {
-    const getData = async () => {
-      try {
-        const result = await axiosData();
-        setData(result);
-      } catch (e) {
-          console.log(e,"Erro 1")
-          setError(e instanceof Error ? e.message : "Erro generico");
-      }
-    };
-
-    getData();
-  }, []);
-
-  if (error) return <div>Erro: {error}</div>;
-  if (!data) return <div>Carregando...</div>;
+  const { data, error} = useData();
 
   return (
     <S.Main>
       <S.ContainerText>
         <S.Title>Experiencia</S.Title>
-        {data.experiencia.map((item, index) => (
+        {data?.experiencia?.map((item, index) => (
           <ExperienciaComponent
             key={index}
             name={item.name}
