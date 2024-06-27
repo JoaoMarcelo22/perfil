@@ -27,19 +27,19 @@
             "id": "01",
             "name" : "Ciência da Computação - Bacharelado",
             "periodo" : "Fev 2024 - Fev 2028",
-            "instituicao" : "assets/Img/cruzeiroDoSul2.png"
+            "instituicao" : "https://raw.githubusercontent.com/JoaoMarcelo22/perfil/main/public/assets/Img/cruzeiroDoSul2.png"
         },
         {
             "id": "02",
             "name" : "Ciência de Dados - Tecnólogo",
             "periodo" : "Jan 2022 - Dez 2023",
-            "instituicao" : "assets/Img/cruzeiroDoSul2.png"
+            "instituicao" : "https://raw.githubusercontent.com/JoaoMarcelo22/perfil/main/public/assets/Img/cruzeiroDoSul2.png"
         },
         {
             "id": "03",
             "name" : "Análise e Desenvolvimento de Sistemas - Tecnólogo",
-            "periodo" : "Fev 2019 - Dez 2021",
-            "instituicao" : "assets/Img/cruzeiroDoSul2.png"
+            "periodo" : "Fev 2019 - Dez 202",
+            "instituicao" : "https://raw.githubusercontent.com/JoaoMarcelo22/perfil/main/public/assets/Img/cruzeiroDoSul2.png"
             
         }
     ]
