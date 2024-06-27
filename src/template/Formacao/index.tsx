@@ -1,43 +1,24 @@
 "use client"
+import FormacaoComponent from '@/components/FormacaoComponent';
 import * as S from './styles'
+import useData from '@/services/data';
 
-const Formacao =()=>{
+const Formacao = () => {
+  const { data, error} = useData();
   return(
     <S.Main>
-      <S.ContainerText>
         <S.Title>
           Formação Academica
         </S.Title>
-        <S.ContainerFormation>
-        <S.SubTitle>        
-          Ciência da Computação - Bacharelado
-        </S.SubTitle>
-        <S.ContainerDate>
-          <S.Text>        
-            Fev 2024 - Fev 2028
-          </S.Text>
-          <S.Img src='assets/Img/cruzeiroDoSul2.png'/>
-        </S.ContainerDate>
-        <S.SubTitle>        
-          Ciência de Dados - Tecnólogo
-        </S.SubTitle>
-        <S.ContainerDate>
-          <S.Text>        
-            Jan 2022 - Dez 2023
-          </S.Text>
-          <S.Img src='assets/Img/cruzeiroDoSul2.png'/>
-        </S.ContainerDate>
-        <S.SubTitle>        
-          Análise e Desenvolvimento de Sistemas - Tecnólogo
-        </S.SubTitle>
-        <S.ContainerDate>
-          <S.Text>        
-            Fev 2019 - Dez 2021
-          </S.Text>
-          <S.Img src='assets/Img/cruzeiroDoSul2.png'/>
-        </S.ContainerDate>
-        </S.ContainerFormation>
-      </S.ContainerText>
+      <FormacaoComponent name='' periodo='' instituicao=''/>
+      {data?.formacao?.map((item, index)=>(
+        <FormacaoComponent
+          key={index}
+          name={item.name}
+          periodo={item.periodo}
+          instituicao={item.instituicao}
+        />
+      ))}
     </S.Main>
   );
 }

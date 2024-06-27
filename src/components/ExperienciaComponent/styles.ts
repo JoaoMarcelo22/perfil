@@ -15,7 +15,7 @@ export const Text = styled.p`
     margin: 1rem;
 `
 export const Descrition = styled.p`
-    color: blue;
+    color: gray;
 `
 export const ContainerFormation = styled.div`
 display: flex;

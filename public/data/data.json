@@ -21,5 +21,26 @@
             "description": "Criação de documentos. Manipulação de arquivos CSV e Xlsx, ETL de dados e metodos de manipulação de comentarios com o LLM Sabia-medium",
             "periodo" : "Mai 2024 - Atualmente"
         }
+    ],
+    "formacao":[
+        {
+            "id": "01",
+            "name" : "Ciência da Computação - Bacharelado",
+            "periodo" : "Fev 2024 - Fev 2028",
+            "instituicao" : "assets/Img/cruzeiroDoSul2.png"
+        },
+        {
+            "id": "02",
+            "name" : "Ciência de Dados - Tecnólogo",
+            "periodo" : "Jan 2022 - Dez 2023",
+            "instituicao" : "assets/Img/cruzeiroDoSul2.png"
+        },
+        {
+            "id": "03",
+            "name" : "Análise e Desenvolvimento de Sistemas - Tecnólogo",
+            "periodo" : "Fev 2019 - Dez 2021",
+            "instituicao" : "assets/Img/cruzeiroDoSul2.png"
+            
+        }
     ]
 }
