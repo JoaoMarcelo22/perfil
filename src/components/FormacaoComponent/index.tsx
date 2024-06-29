@@ -1,13 +1,8 @@
 "use client"
 import * as S from './styles'
+import { Formacao } from '@/interface/perfil';
 
-interface FormacaoProps{
-  name: string;
-  periodo: string;
-  instituicao : string;
-}
-
-const FormacaoComponent: React.FC<FormacaoProps> =({name,periodo,instituicao})=>{
+const FormacaoComponent: React.FC<Formacao> =({name,periodo,instituicao})=>{
   return(
     <>
       <S.ContainerText>

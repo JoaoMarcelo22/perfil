@@ -15,7 +15,7 @@ import Footer from "@/template/Footer";
 export const metadata: Metadata = {
   title: {
     absolute:"",
-    default:"Perfil - J.M.",
+    default:"Perfil - João Ferreira",
     template:"%s | JM"
   },
   description: "Portifolio de joão marcelo",

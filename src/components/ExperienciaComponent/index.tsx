@@ -1,13 +1,7 @@
 import * as S from './styles'
+import {Experiencia} from '@/interface/perfil';
 
-interface ExprerienciaProps{
-  name: string;
-  cargo: string;
-  description: string;
-  periodo: string;
-}
-
-const ExperienciaComponent: React.FC<ExprerienciaProps> =({name,cargo,periodo,description})=>{
+const ExperienciaComponent: React.FC<Experiencia> =({name,cargo,description,periodo })=>{
   return(
   <>
         <S.ContainerFormation>

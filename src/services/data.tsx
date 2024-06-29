@@ -1,39 +1,9 @@
 import { axiosData } from "@/api/axiosData";
 import { useEffect, useState } from "react";
+import { Data } from "@/interface/perfil";
 
-interface ExperienciaItem {
-  id: string;
-  name: string;
-  cargo: string;
-  description: string;
-  periodo: string;
-}
-
-interface FormacaoItem {
-  id: string;
-  name: string;
-  periodo: string;
-  instituicao: string;
-}
-interface ObejetivoItem {
-  obj: string;
-}
-interface Social{
-  context: string;
-  icon: string
-}
-interface PersonItem{
-  img: string;
-  social: Social;
-}
-interface Dados {
-  experiencia: ExperienciaItem[];
-  formacao: FormacaoItem[];
-  objetivo: ObejetivoItem[];
-  person: PersonItem;
-}
 const useData =()=>{
-    const [data, setData] = useState< Dados| null>(null);
+    const [data, setData] = useState< Data| null>(null);
     const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
