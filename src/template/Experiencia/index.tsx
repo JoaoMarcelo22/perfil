@@ -10,8 +10,8 @@ const Experiencia = () => {
     <S.Main>
       <S.ContainerText>
         <S.Title>Experiencia</S.Title>
-        {data?.experiencia?.map((item, index) => (
-          <ExperienciaComponent
+          {data?.experiencia?.map((item, index) => (
+            <ExperienciaComponent
             key={index}
             name={item.name}
             cargo={item.cargo}
