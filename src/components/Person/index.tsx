@@ -6,11 +6,12 @@ const Person:React.FC<Social> =({context,icon}) => {
   return(
     <S.Main>
       <S.ContainerText>
-        <S.Text>
-        Developer / Data Scientist
-        {context}
-        {icon}
-        </S.Text>
+        <S.ContainerSocial>
+          <S.Img src={icon}/>
+          <S.Text>
+          {context}
+          </S.Text>
+        </S.ContainerSocial>
       </S.ContainerText>
     </S.Main>
   );

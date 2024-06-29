@@ -17,13 +17,15 @@ interface Social{
     context:string;
     icon:string
 }
-
+interface Person{
+    imagemPerfil:string;
+    social:Social[];
+}
 interface Data{
     experiencia:Experiencia[];
     formacao:Formacao[];
     objetivo:Objetivo[];
-    imagemPerfil:string;
-    social:Social[];
+    person: Person;
 }
 
 export  type {Data,Social,Objetivo,Formacao,Experiencia};

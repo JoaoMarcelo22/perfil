@@ -11,7 +11,7 @@ const About =()=>{
         <S.Title>
           Olá seja bem vindo(a) ao meu perfil.
         </S.Title>
-        {data?.social?.map((item, index) => (
+        {data?.person?.social?.map((item, index) => (
             <Person
             key={index}
             context={item.context}
