@@ -15,10 +15,13 @@ interface FormacaoItem {
   periodo: string;
   instituicao: string;
 }
-
+interface ObejetivoItem {
+  obj: string;
+}
 interface Dados {
   experiencia: ExperienciaItem[];
   formacao: FormacaoItem[];
+  objetivo: ObejetivoItem[];
 }
 const useData =()=>{
     const [data, setData] = useState< Dados| null>(null);
