@@ -55,7 +55,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 </table>
 
 ## Deploy on Vercel
-
 Usei o Design Atomic para a criação do projeto.
 <ul>
     <li><strong>Átomos:</strong><p>São os elementos mais básicos e fundamentais da interface, como botões, inputs, ícones, etc.</p></li>
