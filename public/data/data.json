@@ -50,5 +50,35 @@
         {
             "obj": "Gostaria de enfatizar meu desejo em continuar estudando a área de Dados, utilizando Python como linguagem principal, juntamente com uma linguagem de banco de dados, seja ela relacional ou não. Meu objetivo é me tornar um programador Full Stack com ênfase em Dados."
         }
+    ],
+    "person":
+    { 
+    "img":" ",
+    "social":[
+        {
+            "context": "Developer / Data Scientist",
+            "icon":"https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/perfil.svg"
+        },
+        {
+            "context": "Rio de Janeiro - RJ",
+            "icon":"https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/localizacao.svg"
+        },
+        {
+            "context": "(21) 99207-8320",
+            "icon":"https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/numero.svg"
+        },
+        {
+            "context": "joao.ms.ferreira@hotmail.com",
+            "icon":"https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/email.svg"
+        },
+        {
+            "context": "Linkdin",
+            "icon":"https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/linkedin.svg"
+        },
+        {
+            "context": "Git Hub",
+            "icon":"https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/gitHub2.svg"
+        }
     ]
+}
 }

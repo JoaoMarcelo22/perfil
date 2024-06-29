@@ -13,9 +13,17 @@ export const Text = styled.p`
     text-align: start;
     opacity: 0.8;
     margin: 1rem;
+
+`
+export const Period = styled.p`
+    font-size: 0.9rem;
+    text-align: start;
+    opacity: 0.8;
+    margin: 2px;
 `
 export const Descrition = styled.p`
     color: gray;
+    margin-bottom: 1rem;
 `
 export const ContainerFormation = styled.div`
 display: flex;

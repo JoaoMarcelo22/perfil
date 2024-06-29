@@ -18,10 +18,19 @@ interface FormacaoItem {
 interface ObejetivoItem {
   obj: string;
 }
+interface Social{
+  context: string;
+  icon: string
+}
+interface PersonItem{
+  img: string;
+  social: Social;
+}
 interface Dados {
   experiencia: ExperienciaItem[];
   formacao: FormacaoItem[];
   objetivo: ObejetivoItem[];
+  person: PersonItem;
 }
 const useData =()=>{
     const [data, setData] = useState< Dados| null>(null);

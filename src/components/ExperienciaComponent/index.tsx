@@ -15,12 +15,12 @@ const ExperienciaComponent: React.FC<ExprerienciaProps> =({name,cargo,periodo,de
           {name}
           {cargo}
           </S.Title>
+          <S.Period>        
+            {periodo}
+          </S.Period>
               <S.Descrition>
                 {description}
               </S.Descrition>
-          <S.Text>        
-            {periodo}
-          </S.Text>
         </S.ContainerFormation>
   </>
   );
