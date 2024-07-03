@@ -28,4 +28,4 @@ interface Data{
     person: Person;
 }
 
-export  type {Data,Social,Objetivo,Formacao,Experiencia};
+export  type {Data,Person,Social,Objetivo,Formacao,Experiencia};
