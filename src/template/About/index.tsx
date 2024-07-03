@@ -6,14 +6,15 @@ import useData from '@/services/data';
 
 const About =()=>{
   const { data, error} = useData();
-  const profileImage = data?.person.imagemPerfil ?? 'https://www.youtube.com/watch?v=t99KH0TR-J4&ab_channel=QueenOfficial'
   return(
     <S.Main>
-      <S.ContainerText>
+      
         <S.Title>
           Olá seja bem vindo(a) ao meu perfil.
         </S.Title>
-        <FotoPerfil imagemPerfil={profileImage} social={[]} />
+        <S.ContainerComponents>
+        <FotoPerfil imagemPerfil="https://avatars.githubusercontent.com/u/78456074?s=400&u=0847bf6d0bebd46c2bfc4a1efadf844e30dd0ce1&v=4" social={[]} />
+        <S.ContainerText>
         {data?.person?.social?.map((item, index) => (
             <Person
             key={index}
@@ -21,7 +22,9 @@ const About =()=>{
             icon={item.icon}
           />
         ))}
-      </S.ContainerText>
+        </S.ContainerText>
+        </S.ContainerComponents>
+      
     </S.Main>
   );
 }

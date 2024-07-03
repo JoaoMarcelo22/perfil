@@ -7,8 +7,8 @@ const About =()=>{
     <S.Main>
       <S.Center>
         <Button href="https://www.youtube.com/watch?v=t99KH0TR-J4&list=RDEMbHaAxpOZhcVmmF6I3y0siA&index=2&ab_channel=QueenOfficial" label="Inicio"/>
-        <Button href="https://www.youtube.com/watch?v=t99KH0TR-J4&list=RDEMbHaAxpOZhcVmmF6I3y0siA&index=2&ab_channel=QueenOfficial" label="Experiencia"/>
-        <Button href="https://www.youtube.com/watch?v=t99KH0TR-J4&list=RDEMbHaAxpOZhcVmmF6I3y0siA&index=2&ab_channel=QueenOfficial" label="Academico"/>
+        <Button href="#Experiencia" label="Experiencia"/>
+        <Button href="#Formacao" label="Academico"/>
         <Button href="https://www.youtube.com/watch?v=t99KH0TR-J4&list=RDEMbHaAxpOZhcVmmF6I3y0siA&index=2&ab_channel=QueenOfficial" label="Projetos"/>
       </S.Center>
     </S.Main>

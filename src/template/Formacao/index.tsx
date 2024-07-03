@@ -6,7 +6,7 @@ import useData from '@/services/data';
 const Formacao = () => {
   const { data, error} = useData();
   return(
-    <S.Main>
+    <S.Main id='Formacao'>
       <S.ContainerText>
         <S.Title>Formação Academica</S.Title>
           {data?.formacao?.map((item, index)=>(

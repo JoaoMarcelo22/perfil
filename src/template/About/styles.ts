@@ -25,3 +25,6 @@ export const Title = styled.h3`
     font-size: 1.25rem;
     margin-bottom: 1rem;
 `
+export const ContainerComponents = styled.div`
+    display: flex;
+`

@@ -7,7 +7,7 @@ const Experiencia = () => {
   const { data, error} = useData();
 
   return (
-    <S.Main>
+    <S.Main id='Experiencia'>
       <S.ContainerText>
         <S.Title>Experiencia</S.Title>
           {data?.experiencia?.map((item, index) => (
