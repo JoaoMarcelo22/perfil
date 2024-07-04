@@ -54,7 +54,7 @@
     "person":
         { 
             "img":"https://avatars.githubusercontent.com/u/78456074?s=400&u=0847bf6d0bebd46c2bfc4a1efadf844e30dd0ce1&v=4",
-            "social":[
+            "contato":[
                 {
                     "context": "Developer / Data Scientist",
                     "icon":"https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/perfil.svg"
@@ -70,7 +70,9 @@
                 {
                     "context": "joao.ms.ferreira@hotmail.com",
                     "icon":"https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/email.svg"
-                },
+                }
+            ],
+            "social":[
                 {
                     "context": "Linkdin",
                     "icon":"https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/linkedin.svg"

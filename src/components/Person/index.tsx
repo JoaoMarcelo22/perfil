@@ -1,7 +1,7 @@
 import * as S from "./styles"
-import { Social } from "@/interface/perfil";
+import { Contato } from "@/interface/perfil";
 
-const Person:React.FC<Social> =({context,icon}) => {
+const Person:React.FC<Contato> =({context,icon}) => {
   
   return(
     <S.Main>

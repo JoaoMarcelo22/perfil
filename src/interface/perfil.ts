@@ -13,13 +13,18 @@ interface Formacao{
 interface Objetivo{
     obj: string
 }
+interface Contato{
+    context:string;
+    icon:string
+}
 interface Social{
     context:string;
     icon:string
 }
 interface Person{
-    imagemPerfil:string;
-    social:Social[];
+    imagemPerfil?:string;
+    contato?:Contato[];
+    social?:Social[];
 }
 interface Data{
     experiencia:Experiencia[];
@@ -28,4 +33,4 @@ interface Data{
     person: Person;
 }
 
-export  type {Data,Person,Social,Objetivo,Formacao,Experiencia};
+export  type {Data,Person,Contato,Objetivo,Formacao,Experiencia};

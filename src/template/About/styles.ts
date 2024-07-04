@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const Main = styled.article`
-    display: flex;
-    justify-content: center;
     height: auto;
     padding: 10px;
     color: #fff;
@@ -27,4 +25,8 @@ export const Title = styled.h3`
 `
 export const ContainerComponents = styled.div`
     display: flex;
+    justify-content: space-evenly;
+`
+export const ContainerPerfil = styled.div`
+    
 `
