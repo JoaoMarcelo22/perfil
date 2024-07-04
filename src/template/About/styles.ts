@@ -7,7 +7,7 @@ export const Main = styled.article`
 `;
 export const ContainerText = styled.div`
     display: flex;
-    flex-direction: column;
+    padding-top: 6px;
 `
 export const Text = styled.p`
     color: aliceblue;
@@ -28,5 +28,5 @@ export const ContainerComponents = styled.div`
     justify-content: space-evenly;
 `
 export const ContainerPerfil = styled.div`
-    
+    align-items: start;
 `
