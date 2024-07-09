@@ -30,6 +30,7 @@ export const Title = styled.h3`
     line-height: 1.7rem;
     font-size: 1.25rem;
     margin-bottom: 1rem;
+    font-weight: bold;
 `
 export const SubTitle = styled.h4`
     margin-left: 20px;

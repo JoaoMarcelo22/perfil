@@ -18,7 +18,7 @@ export const Text = styled.p`
     font-size: 1rem;
     text-align: start;
     opacity: 0.8;
-    margin: 1rem;
+    color: gray;
 `
 export const Title = styled.h3`
     margin-left: 20px;
@@ -26,4 +26,5 @@ export const Title = styled.h3`
     line-height: 1.7rem;
     font-size: 1.25rem;
     margin-bottom: 1rem;
+    font-weight: bold;
 `

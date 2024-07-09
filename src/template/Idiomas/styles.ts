@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
-export const Container = styled.footer`
+export const Container = styled.section`
     display: flex;
-    justify-content: center;
     height: 50px;
     width: 100%;
     background-color: #1b3438;
@@ -10,6 +9,15 @@ export const Container = styled.footer`
     color: #fff;
 `;
 export const Central = styled.div`
-    display: flex;
-    align-items: center;
+    padding: 10px;
 `;
+export const Title = styled.p`
+    margin-left: 20px;
+    text-align: start;
+    line-height: 1.7rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+`
+export const Text = styled.p`
+    color: gray;
+`

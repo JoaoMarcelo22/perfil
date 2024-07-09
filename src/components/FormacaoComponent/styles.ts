@@ -15,8 +15,8 @@ export const ContainerDate = styled.div`
 export const Text = styled.p`
     font-size: 1rem;
     text-align: start;
-    opacity: 0.8;
-    margin: 1rem;
+    opacity: 0.9;
+    margin: 6px;
     text-decoration-color: #00275b;
     text-decoration-line:overline;
     text-decoration-thickness: 2px;
@@ -31,7 +31,7 @@ export const SubTitle = styled.h4`
     line-height: 1.7rem;
     font-size: 1.1rem;
     font-weight: 700;
-    opacity: 0.9;
+    opacity: 0.8;
     font-style: italic;
 `
 export const Img = styled.img`

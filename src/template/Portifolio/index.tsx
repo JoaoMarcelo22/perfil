@@ -4,14 +4,10 @@ import * as S from './styles'
 
 const Portifolio =()=>{
   return(
-    <S.Container>
-        <S.Central>
-            <p>
-                João Marcelo <span>2024</span> &#9426;
-            </p>
-            
-        </S.Central>
-    </S.Container>
+    <S.Central>
+      <S.Title>Portifolio</S.Title>
+      <S.Text>A1 - Inglês</S.Text>
+</S.Central>
   );
 }
 export default Portifolio;
