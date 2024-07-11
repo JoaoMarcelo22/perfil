@@ -26,3 +26,7 @@ export const Text = styled.p`
     opacity: 0.8;
     color: gray;
 `
+export const Img = styled.img`
+    height: 2rem;
+    margin: 4px;
+`

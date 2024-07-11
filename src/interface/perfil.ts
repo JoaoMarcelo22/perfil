@@ -22,12 +22,11 @@ interface Social{
     icon:string
 }
 interface SkillSoftwate{
-    context:string;
-    icon:string
+    context:string
 }
 interface SkillHard{
-    context:string;
-    icon:string
+    name:string;
+    logo:string
 }
 
 interface Person{
@@ -44,4 +43,4 @@ interface Data{
     person: Person;
 }
 
-export  type {Data,Person,Contato,Objetivo,Formacao,Experiencia};
+export  type {Data,Person,Contato,Objetivo,Formacao,Experiencia,SkillSoftwate,SkillHard};
