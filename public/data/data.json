@@ -82,5 +82,46 @@
                     "icon":"https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/gitHub2.svg"
                 }
             ]
-        }
+        },
+    "skillSoftware": [
+        "Atendimento ao cliente e acompanhamento de chamados",
+        "Trabalho em equipe com uso de Slack ou Discord, reuniões via Meet",
+        "Organização e amplo conhecimento em metodologias ageis",
+        "Empatica com colegas e clientes",
+        "Flexibilidade"
+    ],
+    "skillHard" :[
+        {
+            "name": "Nodejs",
+            "logo": "https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/node.svg"
+          },
+          {
+            "name": "Csharp",
+            "logo": "https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/csharp.svg"
+          },
+          {
+            "name": "React",
+            "logo": "https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/react.svg"
+          },
+          {
+            "name": "Git",
+            "logo": "https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/git.svg"
+          },
+          {
+            "name": "Python",
+            "logo": "https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/python.svg"
+          },
+          {
+            "name": "Postgresql",
+            "logo": "https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/postgreSQL.svg"
+          },
+          {
+            "name": "Typescript",
+            "logo": "https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/ts.svg"
+          },
+          {
+            "name": "DataScience",
+            "logo": "https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/dataScience.png"
+          }
+    ]
 }

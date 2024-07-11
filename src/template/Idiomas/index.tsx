@@ -3,34 +3,39 @@
 import { duoData } from '@/api/axiosData';
 import * as S from './styles'
 import { useEffect, useState } from 'react';
-import axios from 'axios';
 
 const Idiomas =()=>{
   const [elements, setElements] = useState<string[]>([]);
+  const [error, setError] = useState<string | null>(null);
   
   useEffect(() => {
     const fetchData = async () => {
-        try {
-            const response = await duoData(); // Faz a requisição
-            setElements(response); // Define os elementos no estado
-        } catch (error) {
-            console.error('Erro ao buscar dados:', error);
-            // Lógica para lidar com erros, se necessário
+      try {
+        const response = await duoData();
+        console.log('Response from duoData:', response); // Adicione este log
+        if (response.elements) {
+          setElements(response.elements); // Certifique-se de acessar 'elements'
+        } else {
+          setError('Dados não encontrados na resposta');
         }
+      } catch (error) {
+        setError('Erro ao buscar dados');
+        console.error('Erro ao buscar dados:', error);
+      }
     };
 
-    fetchData(); // Chama a função de busca de dados ao montar o componente
-}, []);
+    fetchData();
+  }, []);
+ console.log(elements[1])
   return(
         <S.Central>
             <S.Title>Idiomas</S.Title>
             <S.Text>A1 - Inglês</S.Text>
-            <h1>Elementos Extraídos:</h1>
-            <ul>
-                {elements.map((element, index) => (
-                    <li key={index}>{element}</li>
-                ))}
-            </ul>
+        <ul>
+          {elements.map((element, index) => (
+            <li key={index}>{element}</li>
+          ))}
+        </ul>
         </S.Central>
   );
 }

@@ -19,5 +19,10 @@ export const Title = styled.p`
     font-weight: bold;
 `
 export const Text = styled.p`
+    color: aliceblue;
+    line-height: 1.65;
+    font-size: 1rem;
+    text-align: start;
+    opacity: 0.8;
     color: gray;
 `

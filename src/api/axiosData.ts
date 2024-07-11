@@ -10,9 +10,11 @@ export const axiosData = async ()=>{
 };
 export const duoData = async ()=>{
     try{
-        const response = await axios.get('http://localhost:3050/scrape')
+        const response = await axios.get('http://localhost:3050/scrape');
+        console.log('dado recebido', response.data)
         return response.data;
     }   catch (error){
+        console.log('dado recebido', error)
         throw new Error("Erro ao buscar dados")
     };
 };

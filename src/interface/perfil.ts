@@ -21,6 +21,15 @@ interface Social{
     context:string;
     icon:string
 }
+interface SkillSoftwate{
+    context:string;
+    icon:string
+}
+interface SkillHard{
+    context:string;
+    icon:string
+}
+
 interface Person{
     imagemPerfil?:string;
     contato?:Contato[];
@@ -30,6 +39,8 @@ interface Data{
     experiencia:Experiencia[];
     formacao:Formacao[];
     objetivo:Objetivo[];
+    skillSoftware: SkillSoftwate[];
+    skillHard: SkillHard[];
     person: Person;
 }
 
