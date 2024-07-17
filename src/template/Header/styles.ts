@@ -7,6 +7,8 @@ export const Main = styled.header`
     background-color: #1b3438;
     padding: 0 20px;
     color: #fff;
+    position: relative;
+    z-index: 1;
 `;
 export const Center = styled.div`
     display: flex;

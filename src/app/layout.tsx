@@ -3,6 +3,7 @@ import { Inter, Roboto } from "next/font/google";
 import "./globals.css";
 import Header from "@/template/Header";
 import Footer from "@/template/Footer";
+import Stars from "@/template/Main/Stars";
 
  const inter = Inter({ subsets: ["latin"] });
  const roboto = Roboto({
@@ -33,7 +34,7 @@ export default function RootLayout({
     <html lang="pt-br">
       <body className={`${inter.className}${roboto.className}`}>
         <Header/>
-        {children}
+        <Stars>{children}</Stars>
         <Footer/>
       </body>
     </html>
