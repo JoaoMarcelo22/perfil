@@ -7,6 +7,7 @@ export const Main = styled.header`
     background-color: #1b3438;
     padding: 0 20px;
     color: #fff;
+    overflow: hidden;
     position: relative;
     z-index: 1;
 `;

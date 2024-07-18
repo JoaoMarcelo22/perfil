@@ -10,6 +10,7 @@ export const Container = styled.footer`
     color: #fff;
     position: relative;
     z-index: 1;
+    overflow: hidden;
 `;
 export const Central = styled.div`
     display: flex;
