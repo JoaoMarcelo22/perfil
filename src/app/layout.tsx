@@ -5,12 +5,17 @@ import Header from "@/template/Header";
 import Footer from "@/template/Footer";
 import Stars from "@/template/Main/Stars";
 
- const inter = Inter({ subsets: ["latin"] });
+ const inter = Inter({ 
+  subsets: ["latin"],
+  weight:["100","300","400","500","700","900"],
+  variable:"--font-Inter"
+
+});
  const roboto = Roboto({
   subsets:["latin"],
   weight:["100","300","400","500","700","900"],
   style:["italic","normal"],
-  variable:"--font-roboto",
+  variable:"--font-roboto"
 })
 
 export const metadata: Metadata = {

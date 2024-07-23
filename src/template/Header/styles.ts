@@ -4,6 +4,7 @@ export const Main = styled.header`
     display: flex;
     justify-content: center;
     height: 70px;
+    width: 100vw;
     background-color: #1b3438;
     padding: 0 20px;
     color: #fff;
