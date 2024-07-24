@@ -9,7 +9,6 @@ import Skills from "@/template/Skills";
 
 const Home =()=>{
   return(
-    <>
       <Main>
         <About/>
         <Objetivo/>
@@ -18,7 +17,6 @@ const Home =()=>{
         <Skills/>
         <Portifolio/>
       </Main>
-    </>
   )
 }
 export default Home;

@@ -9,6 +9,7 @@ export const Container = styled.footer`
     padding: 0 20px;
     color: #fff;
     position: relative;
+    bottom: 0;
     z-index: 1;
     overflow: hidden;
 `;
