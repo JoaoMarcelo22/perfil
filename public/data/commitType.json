@@ -1,0 +1,219 @@
+{
+    "typeCommit":[
+        {
+            "text": ":tada:",
+            "description": "Initial commit",
+            "icon": "🎉"
+        },
+        {
+            "text": ":bookmark:",
+            "description": "Version tag",
+            "icon": "🔖"
+        },
+        {
+            "text": ":sparkles:",
+            "description": "New feature",
+            "icon": "✨"
+        },
+        {
+            "text": ":bug:",
+            "description": "Bugfix",
+            "icon": "🐛"
+        },
+        {
+            "text": ":card_index:",
+            "description": "Metadata",
+            "icon": "📇"
+        },
+        {
+            "text": ":books:",
+            "description": "Documentation",
+            "icon": "📚"
+        },
+        {
+            "text": ":bulb:",
+            "description": "Documenting source code",
+            "icon": "💡"
+        },
+        {
+            "text": ":racehorse:",
+            "description": "Performance",
+            "icon": "🐎"
+        },
+        {
+            "text": ":lipstick:",
+            "description": "Cosmetic",
+            "icon": "💄"
+        },
+        {
+            "text": ":rotating_light:",
+            "description": "Tests",
+            "icon": "🚨"
+        },
+        {
+            "text": ":white_check_mark:",
+            "description": "Adding a test",
+            "icon": "✅"
+        },
+        {
+            "text": ":heavy_check_mark:",
+            "description": "Make a test pass",
+            "icon": "✔️"
+        },
+        {
+            "text": ":zap:",
+            "description": "General update",
+            "icon": "⚡"
+        },
+        {
+            "text": ":art:",
+            "description": "Improve format/structure",
+            "icon": "🎨"
+        },
+        {
+            "text": ":hammer:",
+            "description": "Refactor code",
+            "icon": "🔨"
+        },
+        {
+            "text": ":fire:",
+            "description": "Removing code/files",
+            "icon": "🔥"
+        },
+        {
+            "text": ":green_heart:",
+            "description": "Continuous Integration",
+            "icon": "💚"
+        },
+        {
+            "text": ":lock:",
+            "description": "Security",
+            "icon": "🔒"
+        },
+        {
+            "text": ":arrow_up:",
+            "description": "Upgrading dependencies",
+            "icon": "⬆️"
+        },
+        {
+            "text": ":arrow_down:",
+            "description": "Downgrading dependencies",
+            "icon": "⬇️"
+        },
+        {
+            "text": ":shirt:",
+            "description": "Lint",
+            "icon": "👕"
+        },
+        {
+            "text": ":alien:",
+            "description": "Translation",
+            "icon": "👽"
+        },
+        {
+            "text": ":pencil:",
+            "description": "Text",
+            "icon": "📝"
+        },
+        {
+            "text": ":ambulance:",
+            "description": "Critical hotfix",
+            "icon": "🚑"
+        },
+        {
+            "text": ":rocket:",
+            "description": "Deploying stuff",
+            "icon": "🚀"
+        },
+        {
+            "text": ":apple:",
+            "description": "Fixing on MacOS",
+            "icon": "🍎"
+        },
+        {
+            "text": ":penguin:",
+            "description": "Fixing on Linux",
+            "icon": "🐧"
+        },
+        {
+            "text": ":checkered_flag:",
+            "description": "Fixing on Windows",
+            "icon": "🏁"
+        },
+        {
+            "text": ":construction:",
+            "description": "Work in progress",
+            "icon": "🚧"
+        },
+        {
+            "text": ":construction_worker:",
+            "description": "Adding CI build system",
+            "icon": "👷"
+        },
+        {
+            "text": ":chart_with_upwards_trend:",
+            "description": "Analytics or tracking code",
+            "icon": "📈"
+        },
+        {
+            "text": ":heavy_minus_sign:",
+            "description": "Removing a dependency",
+            "icon": "➖"
+        },
+        {
+            "text": ":heavy_plus_sign:",
+            "description": "Adding a dependency",
+            "icon": "➕"
+        },
+        {
+            "text": ":whale:",
+            "description": "Docker",
+            "icon": "🐳"
+        },
+        {
+            "text": ":wrench:",
+            "description": "Configuration files",
+            "icon": "🔧"
+        },
+        {
+            "text": ":package:",
+            "description": "Package.json in JS",
+            "icon": "📦"
+        },
+        {
+            "text": ":twisted_rightwards_arrows:",
+            "description": "Merging branches",
+            "icon": "🔀"
+        },
+        {
+            "text": ":hankey:",
+            "description": "Bad code / need improv",
+            "icon": "💩"
+        },
+        {
+            "text": ":rewind:",
+            "description": "Reverting changes",
+            "icon": "⏪"
+        },
+        {
+            "text": ":boom:",
+            "description": "Breaking changes",
+            "icon": "💥 "
+        },
+        {
+            "text": ":ok_hand:",
+            "description": "Code review changes",
+            "icon": "👌"
+        },
+        {
+            "text": ":wheelchair:",
+            "description": "Accessibility",
+            "icon": "♿"
+        },
+        {
+            "text": ":truck:",
+            "description": "Move/rename repository",
+            "icon": "🚚"
+        }
+    ]
+}
