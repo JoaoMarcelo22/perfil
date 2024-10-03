@@ -10,7 +10,8 @@ export const Title = styled.p`
     line-height: 1.7rem;
     font-size: 1.25rem;
     font-weight: bold;
+    color: #f28b82;
 `
 export const Text = styled.p`
-    color: gray;
+    color: #e5e5e5;
 `

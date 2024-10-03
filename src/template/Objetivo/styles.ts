@@ -4,7 +4,7 @@ export const Main = styled.article`
     display: flex;
     justify-content: center;
     height: auto;
-    background-color: #1b343860;
+    background-color: #132426;
     padding: 10px;
     color: #fff;
 `;
@@ -16,15 +16,15 @@ export const Text = styled.p`
     color: aliceblue;
     line-height: 1.65;
     font-size: 1rem;
-    text-align: start;
+    text-align: center;
     opacity: 0.8;
-    color: gray;
+    color: #e5e5e5;
 `
 export const Title = styled.h3`
-    margin-left: 20px;
-    text-align: start;
+    text-align: center;
     line-height: 1.7rem;
     font-size: 1.25rem;
     margin-bottom: 1rem;
     font-weight: bold;
+    color: #f28b82;
 `

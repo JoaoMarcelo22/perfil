@@ -33,6 +33,7 @@ export const SubTitle = styled.h4`
     font-weight: 700;
     opacity: 0.8;
     font-style: italic;
+    color: #ffb74d;
 `
 export const Img = styled.img`
     width: 150px;

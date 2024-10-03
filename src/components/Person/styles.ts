@@ -22,7 +22,7 @@ export const Text = styled.a`
     text-align: start;
     opacity: 0.8;
     margin: auto 0 auto 4px;
-    color: gray;
+    color: #e5e5e5;
 `
 export const Img = styled.img`
     margin: auto 0px;

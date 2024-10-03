@@ -8,7 +8,7 @@ const Formacao = () => {
   return(
     <S.Main id='Formacao'>
       <S.ContainerText>
-        <S.Title>Formação Academica</S.Title>
+        <S.Title>Formação Acadêmica</S.Title>
           {data?.formacao?.map((item, index)=>(
           <FormacaoComponent
           key={index}

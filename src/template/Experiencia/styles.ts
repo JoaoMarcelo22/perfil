@@ -5,7 +5,7 @@ export const Main = styled.article`
     height: auto;
     padding: 10px;
     color: #fff;
-    background-color: #1b343860;
+    background-color: #132426;
 `;
 export const ContainerFormation = styled.div`
 display: flex;
@@ -25,12 +25,12 @@ export const Text = styled.p`
     margin: 1rem;
 `
 export const Title = styled.h3`
-    margin-left: 20px;
-    text-align: start;
+    text-align: center;
     line-height: 1.7rem;
     font-size: 1.25rem;
     margin-bottom: 1rem;
     font-weight: bold;
+    color: #f28b82;
 `
 export const SubTitle = styled.h4`
     margin-left: 20px;

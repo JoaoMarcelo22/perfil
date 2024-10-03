@@ -11,6 +11,6 @@ export const A = styled.a`
     color: aliceblue;
     text-decoration: none;
     &:hover{
-        color: red;
+        color: #ffb74d;
     }
 `

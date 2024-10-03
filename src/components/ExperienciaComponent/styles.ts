@@ -7,6 +7,7 @@ export const Title = styled.h4`
     font-weight: 700;
     opacity: 0.9;
     font-style: italic;
+    color: #ffb74d;
 `
 export const Text = styled.p`
     font-size: 1rem;
@@ -22,7 +23,8 @@ export const Period = styled.p`
     margin: 2px;
 `
 export const Descrition = styled.p`
-    color: gray;
+    text-align: justify;
+    color: #e5e5e5;
     margin-bottom: 1rem;
 `
 export const ContainerFormation = styled.div`

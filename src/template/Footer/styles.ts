@@ -17,3 +17,10 @@ export const Central = styled.div`
     display: flex;
     align-items: center;
 `;
+export const Line = styled.hr`
+    width: 63vw;
+    border: 1px solid #ffb74d;
+`
+export const Text = styled.p`
+    margin: auto;
+`

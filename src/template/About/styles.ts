@@ -4,6 +4,8 @@ export const Main = styled.article`
     height: auto;
     padding: 10px;
     color: #fff;
+    background-color: #346a6f60;
+    border-radius: 10px 10px 0px 0px ;
 `;
 export const ContainerText = styled.div`
     display: flex;
@@ -22,6 +24,7 @@ export const Title = styled.h3`
     line-height: 1.7rem;
     font-size: 1.25rem;
     margin-bottom: 1rem;
+    color: #f28b82;
 `
 export const ContainerComponents = styled.div`
     display: flex;

@@ -8,7 +8,7 @@ const Skills =()=>{
   return(
     <S.Central>
             <S.Title>Skills</S.Title>
-            <S.Text>Hard Skills: </S.Text>
+            <S.Text>Software Skills: </S.Text>
             {data?.skillHard?.map((item, index) => (
             <S.Img key={index} src={item.logo}/>
         ))}
