@@ -9,7 +9,7 @@ const About =()=>{
   return(
     <S.Main>
         <S.Title>
-          Olá seja bem vindo(a)!
+          Olá seja bem vindo(a)! 🚀🚀🚀
         </S.Title>
         <S.ContainerComponents>
         <FotoPerfil imagemPerfil="https://avatars.githubusercontent.com/u/78456074?s=400&u=0847bf6d0bebd46c2bfc4a1efadf844e30dd0ce1&v=4" />
