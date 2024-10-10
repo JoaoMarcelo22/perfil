@@ -60,10 +60,6 @@
                     "icon":"https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/perfil.svg"
                 },
                 {
-                    "context": "Rio de Janeiro - RJ",
-                    "icon":"https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/localizacao.svg"
-                },
-                {
                     "context": "(21) 99207-8320",
                     "icon":"https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/numero.svg"
                 },
@@ -73,6 +69,10 @@
                 }
             ],
             "social":[
+                {
+                    "context": "Rio de Janeiro - RJ",
+                    "icon":"https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/localizacao.svg"
+                },
                 {
                     "context": "Linkdin",
                     "icon":"https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/linkedin.svg"
