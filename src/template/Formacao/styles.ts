@@ -10,15 +10,15 @@ export const Main = styled.article`
 export const ContainerText = styled.div`
     display: flex;
     flex-direction: column;
-    margin: auto;
     
 `
 
 export const Title = styled.h3`
-    text-align: center;
+    text-align: left;
     line-height: 1.7rem;
     font-size: 1.25rem;
     margin-bottom: 1rem;
+    margin-left: 10px;
     font-weight: bold;
     color: #f28b82;
 `

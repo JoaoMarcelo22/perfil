@@ -31,11 +31,7 @@ const Idiomas =()=>{
         <S.Central>
             <S.Title>Idiomas</S.Title>
             <S.Text>A1 - Inglês</S.Text>
-        <ul>
-          {elements.map((element, index) => (
-            <li key={index}>{element}</li>
-          ))}
-        </ul>
+        
         </S.Central>
   );
 }

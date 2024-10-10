@@ -3,6 +3,11 @@ import styled from "styled-components";
 export const ContainerFormation = styled.div`
 display: flex;
 flex-direction: column;
+background-color: #346a6f50;
+margin-bottom: 0.25rem;
+border-radius: 10px;
+padding: 0%.25rem;
+box-shadow: 1px;
     
 `
 export const ContainerText = styled.div`
