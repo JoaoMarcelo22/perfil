@@ -33,3 +33,8 @@ export const ContainerComponents = styled.div`
 export const ContainerPerfil = styled.div`
     align-items: start;
 `
+export const ContainerDiv = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+`
