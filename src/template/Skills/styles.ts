@@ -1,13 +1,9 @@
 import styled from "styled-components";
 
-export const Container = styled.section`
-    display: flex;
-    height: 50px;
-    width: 100%;
-    padding: 0 20px;
-    color: #fff;
+export const Icons = styled.div`
+    margin: auto;
 `;
-export const Central = styled.div`
+export const Central = styled.section`
     padding: 10px;
     background-color: #346a6f60;
 `;
@@ -28,5 +24,5 @@ export const Text = styled.p`
 `
 export const Img = styled.img`
     height: 2rem;
-    margin: 4px;
+    margin: 1vw;
 `

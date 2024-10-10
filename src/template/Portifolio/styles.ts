@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Central = styled.div`
     padding: 10px;
     background-color: #132426;
+    border-radius: 0px 0px 10px 10px ;
 `;
 export const Title = styled.p`
     margin-left: 20px;
