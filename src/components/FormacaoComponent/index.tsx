@@ -6,6 +6,7 @@ const FormacaoComponent: React.FC<Formacao> =({name,periodo,instituicao})=>{
   return(
     <>
       <S.ContainerText>
+        <div></div>
         <S.ContainerFormation>
         <S.SubTitle>        
           {name}
@@ -14,7 +15,11 @@ const FormacaoComponent: React.FC<Formacao> =({name,periodo,instituicao})=>{
           <S.Text>        
             {periodo}
           </S.Text>
-          <S.Img src={instituicao}/>
+          <div>
+            <S.Text>
+              Universidade - Cruzeiro do Sul
+            </S.Text>
+          </div>
         </S.ContainerDate>
         </S.ContainerFormation>
       </S.ContainerText>

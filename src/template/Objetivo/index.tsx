@@ -1,5 +1,6 @@
 "use client"
 import Linha from '@/components/atoms/Linha/index';
+import SubTitle from '@/components/atoms/SubTitle/index';
 import useData from '@/services/data';
 import * as S from './styles'
 
@@ -8,17 +9,13 @@ const Objetivo =()=>{
   return(
     <S.Main>
       <S.ContainerText>
-        <S.Title>
-          Sobre
-        </S.Title>
+      <SubTitle text='Sobre'/>
         {data?.objetivo?.map((item, index) => (
           <S.Text key={index}>
             {item.obj}
           </S.Text>
         ))}
-        <S.Title>
-          Objetivo
-        </S.Title>
+        <SubTitle text='Objetivo'/>
         {data?.objetivo?.map((item, index) => (
           <S.Text key={index}>
             {item.obj}

@@ -56,10 +56,6 @@ export const P = styled.div`
     font-size:25px;
     text-align:center;
     font-weight:bold ;
-    text-decoration-color: #F28B8240;
-    text-decoration-line:underline;
-    text-decoration-thickness: 2px;
-    text-decoration-style: solid;
 `
 
 export const Div2 = styled.div`

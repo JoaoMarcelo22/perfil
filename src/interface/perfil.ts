@@ -9,6 +9,7 @@ interface Formacao{
     name: string;
     periodo: string;
     instituicao : string;
+    alinhamento?: 'top' | 'center' | 'bottom';
   }
 interface Objetivo{
     obj: string
