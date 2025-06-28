@@ -25,21 +25,24 @@
     "formacao":[
         {
             "id": "01",
-            "name" : "Ciência da Computação - Bacharelado",
-            "periodo" : "Fev 2024 - Fev 2028",
-            "instituicao" : "https://raw.githubusercontent.com/JoaoMarcelo22/perfil/main/public/assets/Img/cruzeiroDoSul2.png"
+            "name" : "Ciência da Computação",
+            "periodo" : "Bacharelado Fev/2024 - Dez/2025",
+            "instituicao" : "Universidade - Cruzeiro do Sul",
+            "alinhamento": "top"
         },
         {
             "id": "02",
-            "name" : "Ciência de Dados - Tecnólogo",
-            "periodo" : "Jan 2022 - Dez 2023",
-            "instituicao" : "https://raw.githubusercontent.com/JoaoMarcelo22/perfil/main/public/assets/Img/cruzeiroDoSul2.png"
+            "name" : "Ciência de Dados",
+            "periodo" : "Tecnólogo Jan/2022 - Dez/2023",
+            "instituicao" : "Universidade - Cruzeiro do Sul",
+            "alinhamento": "center"
         },
         {
             "id": "03",
-            "name" : "Análise e Desenvolvimento de Sistemas - Tecnólogo",
-            "periodo" : "Fev 2019 - Dez 202",
-            "instituicao" : "https://raw.githubusercontent.com/JoaoMarcelo22/perfil/main/public/assets/Img/cruzeiroDoSul2.png"
+            "name" : "Análise e Desenvolvimento de Sistemas",
+            "periodo" : "Tecnólogo Fev/2019 - Jan/2021",
+            "instituicao" : "Universidade - Cruzeiro do Sul",
+            "alinhamento": "bottom"
             
         }
     ],
