@@ -1,15 +1,27 @@
 import styled from "styled-components";
 
+interface ContainerTextProps {
+    alignment?: string;
+  }
+
 export const ContainerFormation = styled.div`
 display: flex;
 flex-direction: column;
-    
+flex:1 ;
 `
 export const ContainerText = styled.div`
     display: flex;
     flex-direction: column;
-    gap:20px;
 `
+export const ItemWrapper = styled.div<ContainerTextProps>`
+  display: flex;
+  align-items: ${({ alignment }) => {
+    if (alignment === 'top') return 'flex-start';
+    if (alignment === 'bottom') return 'flex-end';
+    return 'center';
+  }};
+  height: 60px;
+`;
 export const ContainerDate = styled.div`
     display: flex;
     justify-content:space-between ;
@@ -19,15 +31,6 @@ export const Text = styled.p`
     font-size: 1rem;
     text-align: start;
     opacity: 0.9;
-    /* margin: 6px;
-    text-decoration-color: #00275b;
-    text-decoration-line:overline;
-    text-decoration-thickness: 2px;
-    text-decoration-style: wavy;
-    &:before{
-        content:url(assets/Img/calender.svg);
-        margin-right: 4px;
-    } */
 `
 export const SubTitle = styled.h4`
     font-family:sans-serif ;

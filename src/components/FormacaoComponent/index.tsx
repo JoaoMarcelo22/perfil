@@ -2,27 +2,22 @@
 import * as S from './styles'
 import { Formacao } from '@/interface/perfil';
 
-const FormacaoComponent: React.FC<Formacao> =({name,periodo,instituicao})=>{
+const FormacaoComponent: React.FC<Formacao> =({name,periodo,instituicao,alinhamento})=>{
   return(
     <>
-      <S.ContainerText>
-        <div></div>
+      <S.ItemWrapper alignment={alinhamento}>
         <S.ContainerFormation>
-        <S.SubTitle>        
-          {name}
-        </S.SubTitle>
+        <S.SubTitle>{name}</S.SubTitle>
         <S.ContainerDate>
-          <S.Text>        
-            {periodo}
-          </S.Text>
           <div>
-            <S.Text>
-              Universidade - Cruzeiro do Sul
-            </S.Text>
+          <S.Text>{periodo}</S.Text>
+          </div>
+          <div>
+            <S.Text>{instituicao}</S.Text>
           </div>
         </S.ContainerDate>
         </S.ContainerFormation>
-      </S.ContainerText>
+      </S.ItemWrapper>
     </>
   );
 }

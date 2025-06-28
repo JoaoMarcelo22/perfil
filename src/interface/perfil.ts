@@ -4,12 +4,13 @@ interface Experiencia{
     cargo: string;
     description: string;
     periodo: string;
+    tipo: string;
   }
 interface Formacao{
     name: string;
     periodo: string;
     instituicao : string;
-    alinhamento?: 'top' | 'center' | 'bottom';
+    alinhamento?: string;
   }
 interface Objetivo{
     obj: string

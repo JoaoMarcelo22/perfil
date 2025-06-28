@@ -1,17 +1,28 @@
 import * as S from './styles'
 import {Experiencia} from '@/interface/perfil';
 
-const ExperienciaComponent: React.FC<Experiencia> =({name,cargo,description,periodo })=>{
+const ExperienciaComponent: React.FC<Experiencia> =({name,cargo,description,periodo,tipo })=>{
   return(
   <>
         <S.ContainerFormation>
           <S.Title>        
           {name}
-          {cargo}
           </S.Title>
-          <S.Period>        
-            {periodo}
-          </S.Period>
+          <S.Atribuicao>
+          <S.CargoDiv>
+            <S.Cargo>
+              {cargo}        
+            </S.Cargo>
+            <S.Period>
+              {periodo}
+            </S.Period>
+            </S.CargoDiv>
+            <div>
+              <S.Cargo>
+                {tipo}        
+              </S.Cargo>
+            </div>
+          </S.Atribuicao>
               <S.Descrition>
                 {description}
               </S.Descrition>

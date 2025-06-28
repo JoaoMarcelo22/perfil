@@ -2,14 +2,15 @@
 import * as S from './styles';
 import ExperienciaComponent from '@/components/ExperienciaComponent';
 import useData from '@/services/data';
+import SubTitle from '@/components/atoms/SubTitle/index';
 
 const Experiencia = () => {
   const { data, error} = useData();
 
   return (
     <S.Main id='Experiencia'>
+      <div><SubTitle text='Experiencia Profissional'/></div>
       <S.ContainerText>
-        <S.Title>Experiencia</S.Title>
           {data?.experiencia?.map((item, index) => (
             <ExperienciaComponent
             key={index}
@@ -17,6 +18,7 @@ const Experiencia = () => {
             cargo={item.cargo}
             description={item.description}
             periodo={item.periodo}
+            tipo={item.tipo}
           />
         ))}
       </S.ContainerText>

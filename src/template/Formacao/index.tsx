@@ -11,16 +11,17 @@ const Formacao = () => {
     <>
     <S.Main id='Formacao'>
       <div><SubTitle text='Formação Acadêmica'/></div>
+      <S.ContainerText >
           {data?.formacao?.map((item, index)=>(
-      <S.ContainerText alignment={item.alinhamento}>
           <FormacaoComponent
           key={index}
           name={item.name}
           periodo={item.periodo}
           instituicao={item.instituicao}
+          alinhamento={item.alinhamento}
         />
-      </S.ContainerText>
-      ))}
+        ))}
+        </S.ContainerText>
     </S.Main>
     <Linha/>
     </>
