@@ -3,6 +3,8 @@
 import { duoData } from '@/api/axiosData';
 import * as S from './styles'
 import { useEffect, useState } from 'react';
+import SubTitle from '@/components/atoms/SubTitle/index';
+import Linha from '@/components/atoms/Linha/index';
 
 const Idiomas =()=>{
   const [elements, setElements] = useState<string[]>([]);
@@ -28,11 +30,13 @@ const Idiomas =()=>{
   }, []);
  console.log(elements[1])
   return(
+    <>
         <S.Central>
-            <S.Title>Idiomas</S.Title>
-            <S.Text>A1 - Inglês</S.Text>
-        
+            <SubTitle text='Idiomas'/>
+            <S.Text>A1hg - Inglês</S.Text>
         </S.Central>
+        <Linha/>
+    </>
   );
 }
 export default Idiomas;

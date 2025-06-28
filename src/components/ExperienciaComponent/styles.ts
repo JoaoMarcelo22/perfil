@@ -1,4 +1,7 @@
 import styled from "styled-components";
+interface ContainerTextProps {
+    alignment?: string;
+  }
 
 export const Title = styled.h3`
     font-family:sans-serif ;
@@ -51,3 +54,13 @@ export const ContainerFormation = styled.div`
 display: flex;
 flex-direction: column;
 `
+
+export const ItemWrapper = styled.div<ContainerTextProps>`
+  display: flex;
+  align-items: ${({ alignment }) => {
+    if (alignment === 'top') return 'flex-start';
+    if (alignment === 'bottom') return 'flex-end';
+    return 'center';
+  }};
+  height: 60px;
+`;

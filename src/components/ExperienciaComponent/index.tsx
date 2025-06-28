@@ -3,7 +3,7 @@ import {Experiencia} from '@/interface/perfil';
 
 const ExperienciaComponent: React.FC<Experiencia> =({name,cargo,description,periodo,tipo })=>{
   return(
-  <>
+  <>    
         <S.ContainerFormation>
           <S.Title>        
           {name}

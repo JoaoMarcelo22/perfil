@@ -43,10 +43,20 @@ export const Social = styled.div`
 `
 export const Text = styled.div`
     font-family:sans-serif ;
-    color:#fff;
-    &:hover{ color:#FFB74D};
     font-size:16px;
     cursor: pointer;
+`
+export const MenuText = styled.a`
+    color:#fff ;
+    cursor: pointer;
+    &:hover{ color:#F28B82};
+    text-decoration:none ;
+`
+export const ContateText = styled.a`
+    color:#fff ;
+    cursor: pointer;
+    &:hover{ color:#FFB74D};
+    text-decoration:none ;
 `
 export const P = styled.div`
     font-family:sans-serif ;

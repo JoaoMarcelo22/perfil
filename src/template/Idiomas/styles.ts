@@ -9,15 +9,12 @@ export const Container = styled.section`
     color: #fff;
 `;
 export const Central = styled.div`
-    padding: 10px;
 `;
-export const Title = styled.p`
-    margin-left: 20px;
-    text-align: start;
-    line-height: 1.7rem;
-    font-size: 1.25rem;
-    font-weight: bold;
-`
 export const Text = styled.p`
-    color: gray;
+    font-family:sans-serif ;
+    font-size: 0.9rem;
+    font-weight:550 ;
+    text-align: start;
+    opacity: 0.9;
+    color:#55569E ;
 `

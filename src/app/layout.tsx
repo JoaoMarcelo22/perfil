@@ -39,7 +39,6 @@ export default function RootLayout({
     <html lang="pt-br">
       <body className={`${inter.className}${roboto.className}`}>
         <Stars>{children}</Stars>
-        <Footer/>
       </body>
     </html>
   );
