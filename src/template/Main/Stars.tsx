@@ -35,8 +35,6 @@ const createStars = (numStars: number) => {
   return stars;
 };
 
-
-
 const ContentWrapper = styled.div`
   position: relative;
   z-index: auto;

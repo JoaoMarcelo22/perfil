@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export const Main = styled.main`
-    margin: auto;
-    padding-top: 20px;
+    margin: 20px auto;
+    padding: 40px;
     height: 100%;
+    border-radius:15px ;
     max-width: 780px;
-    background-color: #1b343890;
+    background-color: black;
     overflow: hidden;
 `;
