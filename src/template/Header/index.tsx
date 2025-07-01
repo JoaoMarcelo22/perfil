@@ -1,6 +1,6 @@
 "use client"
+import BotaoLink from '@/components/atoms/ButtonLink/index';
 import Linha from '@/components/atoms/Linha/index';
-import menuButton from '@/components/atoms/menuButton';
 import FotoPerfil from '@/components/FotoPerfil/index';
 import * as S from './styles'
 
@@ -15,17 +15,17 @@ const About =()=>{
       <S.Menu>
       <S.MenuLeft>
         <S.Text>
-          <S.MenuText>Projetos</S.MenuText>
+        <BotaoLink href="/Projetos">Projetos</BotaoLink>
         </S.Text>
       </S.MenuLeft>
       <S.MenuCenter>
         <S.Text>
-        <S.MenuText>Artigos Científicos</S.MenuText>
+        <BotaoLink href="/ArtigosCientificos">Artigos Científicos</BotaoLink>
         </S.Text>
       </S.MenuCenter>
       <S.MenuRight>
         <S.Text>
-        <S.MenuText>Artigos</S.MenuText>
+        <BotaoLink href="/Artigos">Artigos</BotaoLink>
         </S.Text>
       </S.MenuRight>
       </S.Menu>

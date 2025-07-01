@@ -1,14 +1,15 @@
 import * as S from './styles'
 import {Experiencia} from '@/interface/perfil';
 
-const ExperienciaComponent: React.FC<Experiencia> =({name,cargo,description,periodo,tipo })=>{
+const ExperienciaComponent: React.FC<Experiencia> =({name,cargo,description,periodo,tipo,alinhamento })=>{
   return(
   <>    
-        <S.ContainerFormation>
-          <S.Title>        
+    <S.ItemWrapper alignment={alinhamento}>
+      <S.ContainerFormation>
+        <S.Title>        
           {name}
-          </S.Title>
-          <S.Atribuicao>
+        </S.Title>
+        <S.Atribuicao>
           <S.CargoDiv>
             <S.Cargo>
               {cargo}        
@@ -22,11 +23,12 @@ const ExperienciaComponent: React.FC<Experiencia> =({name,cargo,description,peri
                 {tipo}        
               </S.Cargo>
             </div>
-          </S.Atribuicao>
-              <S.Descrition>
-                {description}
-              </S.Descrition>
-        </S.ContainerFormation>
+        </S.Atribuicao>
+        <S.Descrition>
+          {description}
+        </S.Descrition>
+      </S.ContainerFormation>
+    </S.ItemWrapper>
   </>
   );
 }

@@ -8,7 +8,7 @@ const Portifolio =()=>{
     <S.Central>
         <SubTitle text='Idiomas'/>
         <S.Text>Inglês</S.Text>
-        <S.Descricao>A1 - (Ler relativamente bem, Escuta básica e Escritura basica)</S.Descricao>
+        <S.Descricao>A2 - (Leitura funcional, escuta contextual e escrita simples)</S.Descricao>
     </S.Central>
 </>
   );

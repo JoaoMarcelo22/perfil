@@ -38,7 +38,8 @@ export const CargoDiv =styled.div`
 `
 export const Atribuicao =styled.div`
     display:flex;
-    justify-content:space-between ;
+    justify-content:space-between;
+    margin-bottom: 14px;
 `
 
 export const Descrition = styled.p`
@@ -62,5 +63,4 @@ export const ItemWrapper = styled.div<ContainerTextProps>`
     if (alignment === 'bottom') return 'flex-end';
     return 'center';
   }};
-  height: 60px;
 `;

@@ -5,6 +5,7 @@ interface Experiencia{
     description: string;
     periodo: string;
     tipo: string;
+    alinhamento:string;
   }
 interface Formacao{
     name: string;
