@@ -21,6 +21,7 @@ const Experiencia = () => {
             description={item.description}
             periodo={item.periodo}
             tipo={item.tipo}
+            alinhamento={item.alinhamento}
           />
         ))}
       </S.ContainerText>
