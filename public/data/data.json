@@ -2,11 +2,12 @@
     "experiencia":[
         {
             "id": "01",
-            "name" : "Nodis - Grupo Stone",
-            "cargo" : "BackEnd Develop",
-            "description": "Atuei como suporte à equipe Tech, com maior foco em estudos e práticas. Pude adquirir conhecimento em lógica de programação com C# e .NET, versionamento Git e GitHub, além de receber uma introdução ao Linux e à estrutura do DevOps. Utilizamos ferramentas como Discord, Jira e Meet, sempre seguindo o método Scrum.",
-            "periodo" : "Mar/2022 - Jun/2022",
-            "tipo" : "Estágio"
+            "name" : "Rede DO'r",
+            "cargo" : "Cientista de Dados",
+            "description": "Criação de documentos. Manipulação de arquivos CSV e Xlsx, ETL de dados e metodos de manipulação de comentarios com o LLM Sabia-medium",
+            "periodo" : "Mai/2024 - Atualmente",
+            "tipo" : "Estágio",
+            "alinhamento": "top"
         },
         {
             "id": "02",
@@ -14,16 +15,19 @@
             "cargo" : "FullStack Develop",
             "description": "Atuei no suporte, sendo o primeiro ponto de contato entre a equipe Tech e o cliente. Como membro da equipe Tech, fui responsável por desenvolver melhorias e fornecer suporte à plataforma. Realizei integrações com o Google Analytics e implementei boas práticas em SEO. Além disso, conduzi integrações com bibliotecas por meio de NPM ou YARN. No lado do Back-end, incluí e atualizei colunas e tabelas. Utilizei tecnologias como Next.js, Node.js, TypeORM, Vercel e TypeScript. Para comunicação, utilizamos ferramentas como Slack, Jira e Meet para reuniões, sempre seguindo o método Scrum.",
             "periodo" : "Jul/2022 - Mai/2023",
-            "tipo" : "Estágio"
+            "tipo" : "Estágio",
+            "alinhamento": "center"
         },
         {
             "id": "03",
-            "name" : "Rede DO'r",
-            "cargo" : "Cientista de Dados",
-            "description": "Criação de documentos. Manipulação de arquivos CSV e Xlsx, ETL de dados e metodos de manipulação de comentarios com o LLM Sabia-medium",
-            "periodo" : "Mai/2024 - Atualmente",
-            "tipo" : "Estágio"
+            "name" : "Nodis - Grupo Stone",
+            "cargo" : "BackEnd Develop",
+            "description": "Atuei como suporte à equipe Tech, com maior foco em estudos e práticas. Pude adquirir conhecimento em lógica de programação com C# e .NET, versionamento Git e GitHub, além de receber uma introdução ao Linux e à estrutura do DevOps. Utilizamos ferramentas como Discord, Jira e Meet, sempre seguindo o método Scrum.",
+            "periodo" : "Mar/2022 - Jun/2022",
+            "tipo" : "Estágio",
+            "alinhamento": "bottom"
         }
+        
     ],
     "formacao":[
         {
