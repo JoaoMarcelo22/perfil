@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Roboto } from "next/font/google";
 import "./globals.css";
-import Header from "@/template/Header";
-import Footer from "@/template/Footer";
 import Stars from "@/template/Main/Stars";
 
  const inter = Inter({ 
