@@ -101,13 +101,6 @@
                 }
             ]
         },
-    "skillSoftware": [
-        "Atendimento ao cliente e acompanhamento de chamados",
-        "Trabalho em equipe com uso de Slack ou Discord, reuniões via Meet",
-        "Organização e amplo conhecimento em metodologias ageis",
-        "Empatica com colegas e clientes",
-        "Flexibilidade"
-    ],
     "skillHard" :[
         {
             "name": "Nodejs",
@@ -141,5 +134,22 @@
             "name": "DataScience",
             "logo": "https://raw.githubusercontent.com/JoaoMarcelo22/portfolio/main/data/img/dataScience.png"
           }
+    ],
+    "SkillSoft":[
+        {
+           "context":"Storytelling" 
+        },
+        {
+           "context":"Pensamento Crítico" 
+        },
+        {
+           "context":"Curiosidade e Mentalidade Investigativa" 
+        },
+        {
+           "context":"Autonomia e Proatividade" 
+        },
+        {
+           "context":"Adaptabilidade" 
+        },
     ]
 }
