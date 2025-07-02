@@ -14,7 +14,7 @@ export const ContainerText = styled.div`
 export const Text = styled.p`
     font-size: 0.95rem;
     text-align: left;
-    color: #e5e5e5;
+    color: #AFAFAF;
     line-height:1.5;
     word-spacing:1.5px;
     text-indent: 20px;
