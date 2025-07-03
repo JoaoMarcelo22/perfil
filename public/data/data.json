@@ -151,5 +151,11 @@
         {
            "context":"Adaptabilidade" 
         }
+    ],
+    "idioma":[
+        {
+            "titulo":"Inglês",
+            "context":"A2 – (Leitura funcional, escuta com compreensão contextual e produção escrita simples)"
+        }
     ]
 }
