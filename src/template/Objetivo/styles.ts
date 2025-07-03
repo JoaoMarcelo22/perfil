@@ -18,7 +18,7 @@ export const Text = styled.p`
     line-height:1.5;
     word-spacing:1.5px;
     text-indent: 20px;
-    font-family:sans-serif ;
+    font-family:sans-serif;
 `
 export const Title = styled.h3`
     text-align: center;
@@ -28,3 +28,8 @@ export const Title = styled.h3`
     font-weight: bold;
     color: #f28b82;
 `
+export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 12px; // espaço entre os itens
+`;

@@ -11,15 +11,15 @@ const Skills =()=>{
     <>
     <S.Central>
       <div><SubTitle text='Skills'/></div>
-            <S.Text>Software Skills: </S.Text>
+            <S.Text>Hard Skills: </S.Text>
             {data?.skillHard?.map((item, index) => (
             <S.Img key={index} src={item.logo}/>
         ))}
             
-            <S.Text>Hard Skills: </S.Text>
-            {data?.skillSoftware?.map((item, index) => (
-            <S.Text key={index}> {item.context}</S.Text>
-        ))}
+            <S.Text>Soft Skills:</S.Text>
+            <S.soft>{data?.skillSoft?.map((item, index) => (
+            <S.Descricao key={index}>|{item.context}</S.Descricao>
+        ))}</S.soft>
         </S.Central>
       <Linha/>
     </>

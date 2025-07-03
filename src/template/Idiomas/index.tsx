@@ -1,41 +1,21 @@
 "use client"
 
-import { duoData } from '@/api/axiosData';
-import * as S from './styles'
-import { useEffect, useState } from 'react';
 import SubTitle from '@/components/atoms/SubTitle/index';
-import Linha from '@/components/atoms/Linha/index';
+import useData from '@/services/data';
+import * as S from './styles'
 
 const Idiomas =()=>{
-  const [elements, setElements] = useState<string[]>([]);
-  const [error, setError] = useState<string | null>(null);
-  
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await duoData();
-        console.log('Response from duoData:', response); // Adicione este log
-        if (response.elements) {
-          setElements(response.elements); // Certifique-se de acessar 'elements'
-        } else {
-          setError('Dados não encontrados na resposta');
-        }
-      } catch (error) {
-        setError('Erro ao buscar dados');
-        console.error('Erro ao buscar dados:', error);
-      }
-    };
-
-    fetchData();
-  }, []);
- console.log(elements[1])
+  const { data, error} = useData();
   return(
     <>
-        <S.Central>
-            <SubTitle text='Idiomas'/>
-            <S.Text>A1hg - Inglês</S.Text>
-        </S.Central>
-        <Linha/>
+    <S.Central>
+      <div><SubTitle text='Idiomas'/></div>
+      {data?.idioma?.map((item, index) => (
+            <><S.Text key={index}>{item.titulo}</S.Text>
+            <S.Descricao key={index}>{item.context}</S.Descricao>
+            </>
+        ))}
+    </S.Central>
     </>
   );
 }

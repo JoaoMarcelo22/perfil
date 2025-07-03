@@ -16,6 +16,13 @@ interface Formacao{
 interface Objetivo{
     obj: string
 }
+interface Sobre{
+    obj: string
+}
+interface Idioma{
+    titulo: string;
+    context: string;
+}
 interface Contato{
     context:string;
     icon:string
@@ -24,7 +31,7 @@ interface Social{
     context:string;
     icon:string
 }
-interface SkillSoftwate{
+interface SkillSoft{
     context:string
 }
 interface SkillHard{
@@ -40,10 +47,12 @@ interface Person{
 interface Data{
     experiencia:Experiencia[];
     formacao:Formacao[];
+    sobre:Sobre[]
     objetivo:Objetivo[];
-    skillSoftware: SkillSoftwate[];
+    skillSoft: SkillSoft[];
     skillHard: SkillHard[];
     person: Person;
+    idioma: Idioma[];
 }
 
-export  type {Data,Person,Contato,Objetivo,Formacao,Experiencia,SkillSoftwate,SkillHard};
+export  type {Data,Person,Contato,Objetivo,Formacao,Experiencia,SkillSoft,SkillHard,Idioma};

@@ -1,5 +1,6 @@
 import * as S from './styles'
 import {Experiencia} from '@/interface/perfil';
+import parse from 'html-react-parser';
 
 const ExperienciaComponent: React.FC<Experiencia> =({name,cargo,description,periodo,tipo,alinhamento })=>{
   return(
@@ -25,7 +26,7 @@ const ExperienciaComponent: React.FC<Experiencia> =({name,cargo,description,peri
             </div>
         </S.Atribuicao>
         <S.Descrition>
-          {description}
+          {parse(description)}
         </S.Descrition>
       </S.ContainerFormation>
     </S.ItemWrapper>

@@ -49,7 +49,12 @@ export const Descrition = styled.p`
     line-height:1.5;
     word-spacing:1.5px;
     text-indent: 20px;
-    font-family:sans-serif ;
+    font-family:sans-serif;
+    ul {
+    list-style: none;
+    padding-left: 0;
+    }
+    
 `
 export const ContainerFormation = styled.div`
 display: flex;

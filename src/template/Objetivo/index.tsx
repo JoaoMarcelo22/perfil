@@ -3,6 +3,7 @@ import Linha from '@/components/atoms/Linha/index';
 import SubTitle from '@/components/atoms/SubTitle/index';
 import useData from '@/services/data';
 import * as S from './styles'
+import parse from 'html-react-parser';
 
 const Objetivo =()=>{
   const { data, error} = useData();
@@ -10,17 +11,21 @@ const Objetivo =()=>{
     <S.Main>
       <S.ContainerText>
       <SubTitle text='Sobre'/>
-        {data?.objetivo?.map((item, index) => (
+      <S.Container>
+        {data?.sobre?.map((item:any, index:any) => (
           <S.Text key={index}>
-            {item.obj}
+            {parse(item.obj)}
           </S.Text>
         ))}
+      </S.Container>
         <SubTitle text='Objetivo'/>
+        <S.Container>
         {data?.objetivo?.map((item, index) => (
           <S.Text key={index}>
-            {item.obj}
+            {parse(item.obj)}
           </S.Text>
         ))}
+        </S.Container>
       <Linha/>
       </S.ContainerText>
     </S.Main>

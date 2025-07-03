@@ -26,3 +26,17 @@ export const Img = styled.img`
     height: 2rem;
     margin: 1vw;
 `
+export const Descricao = styled.p`
+    font-family:sans-serif ;
+    font-size: 0.9rem;
+    font-weight:550 ;
+    text-align: start;
+    opacity: 0.9;
+    color:#55569E ;
+`
+export const soft = styled.div`
+    display:flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+`
