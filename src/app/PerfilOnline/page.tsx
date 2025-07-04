@@ -1,11 +1,10 @@
-import Header from "@/template/Header/index";
 import Main from "@/template/Main";
-import Projeto01 from "@/template/Projeto01/index";
+import PerfilOnline from "@/template/PerfilOnline/index";
 
 const Projeto001 =()=>{
   return(
       <Main>
-        <Projeto01/>
+        <PerfilOnline/>
       </Main>
   )
 }

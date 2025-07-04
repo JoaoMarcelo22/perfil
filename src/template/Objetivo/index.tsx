@@ -8,6 +8,7 @@ import parse from 'html-react-parser';
 const Objetivo =()=>{
   const { data, error} = useData();
   return(
+    <>
     <S.Main>
       <S.ContainerText>
       <SubTitle text='Sobre'/>
@@ -26,9 +27,11 @@ const Objetivo =()=>{
           </S.Text>
         ))}
         </S.Container>
-      <Linha/>
+      
       </S.ContainerText>
     </S.Main>
+    <Linha/>
+    </>
   );
 }
 export default Objetivo;
