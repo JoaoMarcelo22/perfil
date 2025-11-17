@@ -54,6 +54,9 @@ export const Descrition = styled.p`
     list-style: none;
     padding-left: 0;
     }
+    @media (max-width:480px){
+    text-align: justify;
+}
     
 `
 export const ContainerFormation = styled.div`

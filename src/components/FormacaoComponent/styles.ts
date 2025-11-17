@@ -21,10 +21,18 @@ export const ItemWrapper = styled.div<ContainerTextProps>`
     return 'center';
   }};
   height: 60px;
+@media(max-width:480px){
+    display:inline-block;
+    margin:10px 0px ;
+}
 `;
 export const ContainerDate = styled.div`
     display: flex;
     justify-content:space-between ;
+@media(max-width:480px){
+    display:inline-block;
+    margin:2px 0px ;
+}
 `
 export const Text = styled.p`
     font-family:sans-serif ;

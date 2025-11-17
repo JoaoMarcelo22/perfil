@@ -19,6 +19,9 @@ export const Text = styled.p`
     word-spacing:1.5px;
     text-indent: 20px;
     font-family:sans-serif;
+@media (max-width:480px){
+    text-align: justify;
+}
 `
 export const Title = styled.h3`
     text-align: center;

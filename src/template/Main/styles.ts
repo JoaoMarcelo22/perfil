@@ -8,4 +8,9 @@ export const Main = styled.main`
     max-width: 780px;
     background-color: black;
     overflow: hidden;
+
+@media (max-width:480px){
+    margin: 10px 6px;
+    padding: 20px;
+}
 `;

@@ -13,6 +13,11 @@ export const MenuRight = styled.div`
     text-justify:center;
     padding:10px;
     margin-left:1px;
+@media (max-width:480px){
+    margin-top:4px;
+    border-radius:15px;
+    height:36px;
+}
 `
 export const MenuCenter = styled.div`
     background-color:rgba(89, 210, 227, 0.2);
@@ -22,6 +27,12 @@ export const MenuCenter = styled.div`
     text-justify:center;
     padding:10px;
     margin-left:1px;
+@media (max-width:480px){
+    margin-top:4px;
+    border-radius:15px;
+    height:36px;
+    min-width:180px;
+}
 `
 export const MenuLeft = styled.div`
     background-color:rgba(89, 210, 227, 0.2);
@@ -31,10 +42,17 @@ export const MenuLeft = styled.div`
     text-align:center;
     text-justify:center;
     padding:10px;
+@media (max-width:480px){
+    border-radius:15px;
+    height:36px;
+}
 `
 export const Menu = styled.div`
     display:flex;
-    margin-top:10px ;
+    margin-top:10px;
+@media (max-width:480px){
+    display:inline-block ;
+}
 `
 export const Social = styled.div`
     margin-top:10px ;
@@ -45,6 +63,9 @@ export const Text = styled.div`
     font-family:sans-serif ;
     font-size:16px;
     cursor: pointer;
+@media (max-width:480px){
+    font-size:14px;
+}
 `
 export const MenuText = styled.a`
     color:#fff ;

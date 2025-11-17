@@ -3,8 +3,32 @@ import BotaoLink from '@/components/atoms/ButtonLink/index';
 import Linha from '@/components/atoms/Linha/index';
 import FotoPerfil from '@/components/FotoPerfil/index';
 import * as S from './styles'
+import { useEffect, useState } from "react";
 
 const About =()=>{
+  const [telefoneResponsivo, setTelefoneResponsivo] = useState("(21) 99207 - 8320");
+  const [emailResponsivo, setemailResponsivo] = useState("joao_msferreira@hotmail.com");
+  const [localResponsivo, setlocalResponsivo] = useState("Rio de Janeiro/RJ");
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 480) {
+        setTelefoneResponsivo("WhatsApp");
+        setemailResponsivo("E-mail");
+        setlocalResponsivo("RJ");
+      } else {
+        setTelefoneResponsivo("(21) 99207 - 8320");
+        setemailResponsivo("joao_msferreira@hotmail.com");
+        setlocalResponsivo("Rio de Janeiro/RJ");
+      }
+    };
+
+    handleResize(); // executa ao abrir
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return(
     <>
     <S.Main>
@@ -55,17 +79,17 @@ const About =()=>{
       <S.Contato>
         <div><S.Icone src='https://raw.githubusercontent.com/JoaoMarcelo22/perfil/refs/heads/main/public/assets/Img/location.svg'/></div>
         <div><S.Text>
-        <S.ContateText target="_blank" href="https://www.google.com.br/maps/place/Zona+Sul,+Rio+de+Janeiro+-+RJ/@-22.9964598,-43.2957119,12z/data=!3m1!4b1!4m6!3m5!1s0x9bd574fa5a6cf9:0xcb4161d593d6f0dc!8m2!3d-22.9549425!4d-43.1892443!16s%2Fm%2F0ch2_b8?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D">Rio de Janeiro/RJ</S.ContateText></S.Text></div>
+        <S.ContateText target="_blank" href="https://www.google.com.br/maps/place/Zona+Sul,+Rio+de+Janeiro+-+RJ/@-22.9964598,-43.2957119,12z/data=!3m1!4b1!4m6!3m5!1s0x9bd574fa5a6cf9:0xcb4161d593d6f0dc!8m2!3d-22.9549425!4d-43.1892443!16s%2Fm%2F0ch2_b8?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D">{localResponsivo}</S.ContateText></S.Text></div>
       </S.Contato>
       <S.Contato>
         <div><S.Icone src='https://raw.githubusercontent.com/JoaoMarcelo22/perfil/refs/heads/main/public/assets/Img/whatsapp.svg'/></div>
         <div><S.Text>
-        <S.ContateText target="_blank" href="https://wa.me/5521992078320">(21) 99207 - 8320</S.ContateText></S.Text></div>
+        <S.ContateText target="_blank" href="https://wa.me/5521992078320">{telefoneResponsivo}</S.ContateText></S.Text></div>
       </S.Contato>
       <S.Contato>
         <div><S.Icone src='https://raw.githubusercontent.com/JoaoMarcelo22/perfil/refs/heads/main/public/assets/Img/email.svg'/></div>
         <div><S.Text>
-        <S.ContateText href="mailto:joao_msferreira@hotmail.com">joao_msferreira@hotmail.com</S.ContateText>
+        <S.ContateText href="mailto:joao_msferreira@hotmail.com">{emailResponsivo}</S.ContateText>
         </S.Text></div>
       </S.Contato>
     </S.Social>
