@@ -12,6 +12,11 @@ export const Img = styled.img`
     width: 512px;
     display: block;
     z-index: 1;
+@media(max-width:480px){
+    margin-top: 40px;
+    width: 350px;
+    height: 606px;
+} 
 `
 export const DivText = styled.div`
     position: absolute;
